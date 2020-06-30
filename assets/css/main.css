@@ -19,6 +19,8 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+	
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -598,6 +600,15 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 		margin-left: 10px;
+		color: #2c8eed;
+ 		font-size:12px;
+	}
+
+	.icon2 {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+		text-align:center;
 	}
 
 		.icon:before {
@@ -766,7 +777,6 @@ input, select, textarea {
 		}
 
 /* Actions */
-
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
